@@ -4,19 +4,19 @@
 cmake_minimum_required(VERSION 3.5)
 
 file(MAKE_DIRECTORY
-  "/workspaces/C/cpp/build/_deps/googletest-src"
-  "/workspaces/C/cpp/build/_deps/googletest-build"
-  "/workspaces/C/cpp/build/_deps/googletest-subbuild/googletest-populate-prefix"
-  "/workspaces/C/cpp/build/_deps/googletest-subbuild/googletest-populate-prefix/tmp"
-  "/workspaces/C/cpp/build/_deps/googletest-subbuild/googletest-populate-prefix/src/googletest-populate-stamp"
-  "/workspaces/C/cpp/build/_deps/googletest-subbuild/googletest-populate-prefix/src"
-  "/workspaces/C/cpp/build/_deps/googletest-subbuild/googletest-populate-prefix/src/googletest-populate-stamp"
+  "/workspaces/Lab1-1/build/_deps/googletest-src"
+  "/workspaces/Lab1-1/build/_deps/googletest-build"
+  "/workspaces/Lab1-1/build/_deps/googletest-subbuild/googletest-populate-prefix"
+  "/workspaces/Lab1-1/build/_deps/googletest-subbuild/googletest-populate-prefix/tmp"
+  "/workspaces/Lab1-1/build/_deps/googletest-subbuild/googletest-populate-prefix/src/googletest-populate-stamp"
+  "/workspaces/Lab1-1/build/_deps/googletest-subbuild/googletest-populate-prefix/src"
+  "/workspaces/Lab1-1/build/_deps/googletest-subbuild/googletest-populate-prefix/src/googletest-populate-stamp"
 )
 
 set(configSubDirs )
 foreach(subDir IN LISTS configSubDirs)
-    file(MAKE_DIRECTORY "/workspaces/C/cpp/build/_deps/googletest-subbuild/googletest-populate-prefix/src/googletest-populate-stamp/${subDir}")
+    file(MAKE_DIRECTORY "/workspaces/Lab1-1/build/_deps/googletest-subbuild/googletest-populate-prefix/src/googletest-populate-stamp/${subDir}")
 endforeach()
 if(cfgdir)
-  file(MAKE_DIRECTORY "/workspaces/C/cpp/build/_deps/googletest-subbuild/googletest-populate-prefix/src/googletest-populate-stamp${cfgdir}") # cfgdir has leading slash
+  file(MAKE_DIRECTORY "/workspaces/Lab1-1/build/_deps/googletest-subbuild/googletest-populate-prefix/src/googletest-populate-stamp${cfgdir}") # cfgdir has leading slash
 endif()

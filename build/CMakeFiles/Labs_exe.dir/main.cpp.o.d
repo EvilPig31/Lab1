@@ -1,4 +1,4 @@
-CMakeFiles/Labs_exe.dir/main.cpp.o: /workspaces/C/cpp/main.cpp \
+CMakeFiles/Labs_exe.dir/main.cpp.o: /workspaces/Lab1-1/main.cpp \
  /usr/include/stdc-predef.h /usr/local/include/c++/14.2.0/iostream \
  /usr/local/include/c++/14.2.0/bits/requires_hosted.h \
  /usr/local/include/c++/14.2.0/x86_64-linux-gnu/bits/c++config.h \
@@ -177,4 +177,4 @@ CMakeFiles/Labs_exe.dir/main.cpp.o: /workspaces/C/cpp/main.cpp \
  /usr/local/include/c++/14.2.0/bits/ostream.tcc \
  /usr/local/include/c++/14.2.0/istream \
  /usr/local/include/c++/14.2.0/bits/istream.tcc \
- /workspaces/C/cpp/include/finder.h
+ /workspaces/Lab1-1/include/finder.h

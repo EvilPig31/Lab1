@@ -8,7 +8,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "/workspaces/C/cpp/src/FindNumber.cpp" "CMakeFiles/Labs_lib.dir/src/FindNumber.cpp.o" "gcc" "CMakeFiles/Labs_lib.dir/src/FindNumber.cpp.o.d"
+  "/workspaces/Lab1-1/src/FindNumber.cpp" "CMakeFiles/Labs_lib.dir/src/FindNumber.cpp.o" "gcc" "CMakeFiles/Labs_lib.dir/src/FindNumber.cpp.o.d"
   )
 
 # Targets to which this target links.

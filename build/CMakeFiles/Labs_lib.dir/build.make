@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /workspaces/C/cpp
+CMAKE_SOURCE_DIR = /workspaces/Lab1-1
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /workspaces/C/cpp/build
+CMAKE_BINARY_DIR = /workspaces/Lab1-1/build
 
 # Include any dependencies generated for this target.
 include CMakeFiles/Labs_lib.dir/depend.make
@@ -70,18 +70,18 @@ include CMakeFiles/Labs_lib.dir/progress.make
 include CMakeFiles/Labs_lib.dir/flags.make
 
 CMakeFiles/Labs_lib.dir/src/FindNumber.cpp.o: CMakeFiles/Labs_lib.dir/flags.make
-CMakeFiles/Labs_lib.dir/src/FindNumber.cpp.o: /workspaces/C/cpp/src/FindNumber.cpp
+CMakeFiles/Labs_lib.dir/src/FindNumber.cpp.o: /workspaces/Lab1-1/src/FindNumber.cpp
 CMakeFiles/Labs_lib.dir/src/FindNumber.cpp.o: CMakeFiles/Labs_lib.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/workspaces/C/cpp/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/Labs_lib.dir/src/FindNumber.cpp.o"
-	/usr/local/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Labs_lib.dir/src/FindNumber.cpp.o -MF CMakeFiles/Labs_lib.dir/src/FindNumber.cpp.o.d -o CMakeFiles/Labs_lib.dir/src/FindNumber.cpp.o -c /workspaces/C/cpp/src/FindNumber.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/workspaces/Lab1-1/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/Labs_lib.dir/src/FindNumber.cpp.o"
+	/usr/local/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Labs_lib.dir/src/FindNumber.cpp.o -MF CMakeFiles/Labs_lib.dir/src/FindNumber.cpp.o.d -o CMakeFiles/Labs_lib.dir/src/FindNumber.cpp.o -c /workspaces/Lab1-1/src/FindNumber.cpp
 
 CMakeFiles/Labs_lib.dir/src/FindNumber.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Labs_lib.dir/src/FindNumber.cpp.i"
-	/usr/local/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /workspaces/C/cpp/src/FindNumber.cpp > CMakeFiles/Labs_lib.dir/src/FindNumber.cpp.i
+	/usr/local/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /workspaces/Lab1-1/src/FindNumber.cpp > CMakeFiles/Labs_lib.dir/src/FindNumber.cpp.i
 
 CMakeFiles/Labs_lib.dir/src/FindNumber.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Labs_lib.dir/src/FindNumber.cpp.s"
-	/usr/local/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /workspaces/C/cpp/src/FindNumber.cpp -o CMakeFiles/Labs_lib.dir/src/FindNumber.cpp.s
+	/usr/local/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /workspaces/Lab1-1/src/FindNumber.cpp -o CMakeFiles/Labs_lib.dir/src/FindNumber.cpp.s
 
 # Object files for target Labs_lib
 Labs_lib_OBJECTS = \
@@ -93,7 +93,7 @@ Labs_lib_EXTERNAL_OBJECTS =
 libLabs_lib.a: CMakeFiles/Labs_lib.dir/src/FindNumber.cpp.o
 libLabs_lib.a: CMakeFiles/Labs_lib.dir/build.make
 libLabs_lib.a: CMakeFiles/Labs_lib.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/workspaces/C/cpp/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX static library libLabs_lib.a"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/workspaces/Lab1-1/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX static library libLabs_lib.a"
 	$(CMAKE_COMMAND) -P CMakeFiles/Labs_lib.dir/cmake_clean_target.cmake
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/Labs_lib.dir/link.txt --verbose=$(VERBOSE)
 
@@ -106,6 +106,6 @@ CMakeFiles/Labs_lib.dir/clean:
 .PHONY : CMakeFiles/Labs_lib.dir/clean
 
 CMakeFiles/Labs_lib.dir/depend:
-	cd /workspaces/C/cpp/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /workspaces/C/cpp /workspaces/C/cpp /workspaces/C/cpp/build /workspaces/C/cpp/build /workspaces/C/cpp/build/CMakeFiles/Labs_lib.dir/DependInfo.cmake --color=$(COLOR)
+	cd /workspaces/Lab1-1/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /workspaces/Lab1-1 /workspaces/Lab1-1 /workspaces/Lab1-1/build /workspaces/Lab1-1/build /workspaces/Lab1-1/build/CMakeFiles/Labs_lib.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/Labs_lib.dir/depend
 

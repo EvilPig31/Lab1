@@ -1,1 +1,0 @@
-/usr/local/bin/c++ CMakeFiles/Lab1.dir/Lab1/FindNumber.cpp.o -o Lab1 
